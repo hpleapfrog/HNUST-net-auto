@@ -45,9 +45,9 @@ def extract_dict(s) -> list:
             pass
     return results
 
-UserName = "22020402012" # 账号
-PassWord = "148795623"  # 密码
-Operators = "" # 运营商选择：电信“@telecom”，移动“@cmcc”，联通“@unicom”，校园网为空值
+UserName = "22020000000" # 账号
+PassWord = "0000000"  # 密码
+Operators = "" # 运营商选择：电信“telecom”，移动“cmcc”，联通“unicom”，校园网为空值
 
 get_ip = "http://login.hnust.cn/drcom/chkstatus?callback=dr1002"
 wlanIp = urllib.request.urlopen(get_ip)
